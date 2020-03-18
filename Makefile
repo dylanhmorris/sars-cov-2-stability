@@ -96,7 +96,7 @@ CHAIN_DIAGNOSTICS = $(OUTPUT)/chain_diagnostics.csv
 MATERIALS = Aerosols Copper Cardboard Steel Plastic
 FITSUFFIX = .jpg
 INDIVIDUAL_FIT_FIGS = $(addprefix figure_individual_fit_, $(addsuffix $(FITSUFFIX), $(MATERIALS)))
-FIGURES = figure_main.pdf $(INDIVIDUAL_FIT_FIGS)
+FIGURES = figure_main.pdf figure_pp_check.pdf $(INDIVIDUAL_FIT_FIGS)
 FIGURE_PATHS = $(addprefix $(FIGURE_DIR)/, $(FIGURES))
 
 TABLES = table1_half_life_estimates.docx
