@@ -33,7 +33,8 @@ pages = {null},
 day = {17},
 month = {03},
 year = {2020},
-doi = {10.1056/NEJMc2004973},
+doi = {10.1056/NEJMc2004973}
+}
 ```
 
 ## Directories
